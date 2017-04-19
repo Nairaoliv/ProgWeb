@@ -1,11 +1,9 @@
-def Calcular(sBruto):
-    imposto = 
-    sLiquido = sBruto - (imposto / 0.10)
-    print(sLiquido)
 
-def Main():
-    ent = float(input("SALARIO BRUTO = "))
+horaNormal = float(input("Digite a quantidade de horas trabalhadas : "))
+horaExtra = float(input(" Digite a quantidade de horas extras : "))
 
-    Calcular(ent)
+salBruto = (horaNormal *10) + (horaExtra*15)
+salLiquido = salBruto - (salBruto*0.1)
 
-Main()
+print("Salario bruto.........: ", salBruto)
+print("Salario liquido.......: ", salLiquido) 

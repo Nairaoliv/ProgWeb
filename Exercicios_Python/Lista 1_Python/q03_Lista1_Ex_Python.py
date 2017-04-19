@@ -1,17 +1,11 @@
-def Calculo(valorTotal):
-    t = valorTotal / 3
+def Conta(valor):
+    total = valor / 3
 
-    c = round(t)
-    a = round(t)
-    f = round(t, 2)
+    c = round(total)
+    a = round(total)
+    f = round(total, 2)
+    print("c: ",c, "a = ", a, "f = ", f)
 
-    print("CARLOS = ", c, ", ", "ANDRE = ", a, ", ", "FELIPE = ", f)
-
-def Main():
-    vTotal = float(input("VALOR TOTAL DA CONTA (R$): "))
-
-    Calculo(vTotal)
-    
-Main()
+Conta(101.53)
 
               
